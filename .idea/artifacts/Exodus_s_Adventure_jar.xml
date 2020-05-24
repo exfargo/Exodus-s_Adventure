@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Exodus's_Adventure:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Exodus_s_Adventure_jar</output-path>
+    <root id="archive" name="Exodus's_Adventure.jar">
+      <element id="module-output" name="Exodus's_Adventure" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jetbrains/annotations/18.0.0/annotations-18.0.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

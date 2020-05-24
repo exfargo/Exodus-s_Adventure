@@ -1,0 +1,31 @@
+List of all usable commands.
+
+In city :
+#craft => when used opens a menu with all currently craftable items.
+#store => opens town store, cheaper than shop with extra stuff
+#sell slave => immediately sells all your slaves
+#shop => opens always accessible shop menu, only basic stuff
+
+no fight:
+#boss => if Doom Coin is in the inventory summons a boss
+#bottle => shows you slave collection
+#map => when used prints map 3 tiles each direction starting from your position
+#map all => prints the entire map
+#help => displays all commands usable at the moment
+#exit => exits the game,
+#save => saves Character and Map
+
+in fight :
+#attack => attacks the enemy once
+#auto => automatically tries to kill the enemy, may use health potion
+#flee => tries to flee from the enemy, may not work out
+#enemy => shows enemy's stats
+
+anywhere | boss fight & no fight:
+#move / go => if not blocked, moves one tile ahead
+#move b => if not blocked, moves one tile back
+
+anywhere:
+#potion => opens potion selection menu
+#stats / #info => displays your HP, Armor and Score
+#inv => displays your inventory

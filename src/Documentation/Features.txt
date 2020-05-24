@@ -1,0 +1,122 @@
+Exodus's Adventure
+
+
+
+________________________________________________________________________________________________________________________
+Currency
+    There's only one currency called "Qiqra".
+________________________________________________________________________________________________________________________
+Level
+    There are 6 + 1 unique areas. These being : "Valley", "Desert", "Mountain", "Town", "Canyon", "Jungle",
+    "Ocean", "Dungeon".   At the start you may access only first three. Increasing the difficulty will bring more areas.
+    Every single tile will have a resource chosen from the Area's specific pool. This resource can be looted. Resources
+    does not regrow, thus if you want more resources you will have to progress further.
+    A special Area is "Dungeon", it has three "resources", those being : "relic", "key", "door".
+    If a tile with door is generated, you must use a key to go beyond that point. A door may only spawn after
+    a key was created. This area has also special, stronger enemies.
+________________________________________________________________________________________________________________________
+Enemies
+    There are 6 different enemies for each tileset and a Merchant.
+    At the begging you may only encounter comment enemies.
+    Further on you will meet even those Legendary.
+    Enemies scale accordingly to you progression, if you return to starter location you will meet much tougher enemies.
+    If you defeat a enemy in a specific location, that location is recognised as cleaned, and therefore no more
+    enemies will be spawned there.
+________________________________________________________________________________________________________________________
+Character
+    You are a character called Exodus, you always spawn with 100 Health,
+    and some stuff in inventory : "Qiqra", 25
+                                  "Health Potion", 10
+                                  "Electric Sword Damage", 20
+                                  "Leather Plate Armor", 10
+                                  "Vitality Potion", 1
+                                  "Strength Potion", 1
+    Your inventory is not limited at all.
+    Your Hp, armor, damage are caped at about 2 billions.
+_______________________________________________________________________________________________________________________
+Boss
+    Can be summoned via Doom Coin, which can be bought from travelling merchant.
+    You can choose from three different bosses, ordered by difficulty (1,2,3)
+    As soon as the boss fight start it works like a normal fight, but you can move.
+    Moving works like fleeing, but the boss does not vanish. You have 2 turns to return to the boss fight.
+    If you do not manage to return you will loose 50% of your current HP and 20% of your best damage.
+    Defeating a boss will reward you with special items.
+________________________________________________________________________________________________________________________
+Crafting
+    While exploring the world you will come across many resources.
+    When you are in a town, thought "craft" command you may access list of all craftable items.
+    There you can choose what item you want to craft. If all the requirements are met the item is crafted.
+________________________________________________________________________________________________________________________
+Shops
+    There are three different shops. One is accessible throughout the entire game. You may access it with "shop" command.
+    This shop is more expensive than others but, as mentioned above, is accessible at anytime.
+    Next shop, that can be found in every city, therefore it is quite rare, is accessible via "store"
+    command if you are in a city. It sells more stuff and cheaper.
+    Last shop is very uncontrollable, it is the travelling merchant. You may encounter one of those from level 3 on.
+    Merchant sells special stuff, very cheap. He also sells the Doom Coin used to summon bosses.
+________________________________________________________________________________________________________________________
+Selling
+    Items can be sold only if in a town. You sell them cheaper than you buy them,
+    although you may not buy majority of those thing. You can sell everything ranging from
+    (weapons, armors, potions, resources) and these items are not salable (Doom Coin, Key).
+________________________________________________________________________________________________________________________
+Slaves
+    Slaves may be encountered instead of an enemy.
+    If you get lucky enough, you should try to capture it, as they can be sold in cities for decent amount of Qiqra.
+    You have a collection, once you caught every single slave you receive a buff (+25% Health / 12% Damage / 20% Armor).
+    After you receive the buff, the collection gets restarted and you may get another bonus.
+________________________________________________________________________________________________________________________
+Potions
+    Potions are quality of life improvement. You can win the game without those, but it may be much more challenging.
+    Health potions heal you of a certain amount. This effect is boosted in towns. There are three health potion variants.
+        Those being Infinite apprentice potion (10)
+                    Health potion (50)
+                    Strong health potion (70)
+    Vitality potion doubles your max HP for 2 turns.
+    Strength potion doubles your damage for 2 turns.
+    Using multiple potions will make them last longer
+________________________________________________________________________________________________________________________
+Saves
+    You can save your progression by saving important files. This can be accomplished by "save" command.
+    Three files will be saves: Player, Collection and Level. You can save as many worlds as you want.
+    Names are case sensitive ("World" and "world" are two different saves)
+________________________________________________________________________________________________________________________
+Enemies :
+    Valley      = "Falcon", "Ladybug", "Rabbit", "Merchant", "Lizard", "Swan", "Judah"
+    Desert      = "Worm", "Condor", "Acolyte", "Merchant", "Scorpion", "Alchemist", "Phantom"
+    Mountain    = "Eagle", "Worm", "Stoner", "Merchant", "Tesla Coil", "Living Rock", "Negro"
+    Canyon      = "Hammeroid", "Apache", "Wizard", "Merchant", "Vampire", "Rocky", "Medusa"
+    Jungle      = "Snake", "Chloroglob", "Trader", "Merchant", "Visage", "Spaghetto", "Giuseppe"
+    Ocean       = "Fishron", "OctoMum", "Adoplhin", "Merchant", "Rivertail", "Sea Tiger", "Leviathan"
+    Dungeon     = "Infernon", "Sun Walker", "Fuhrer"
+
+    prefixes    = "Deadly", "Heroic", "Fast", "Energized", "Viral", "Naughty", "Ancient", "Dangerous",
+                  "Horny", "Furious", "Vibrating", "Soundproof", "Magmatic"`
+
+    boss        = "Zedek", "Karel", "Chingischan v.{difficulty}"
+
+    slaves      = "Imani", "Bahati", "Jafari", "Dálí", "Feechi", "Baraka", "Kehinde", "Jinjabu", "Gahigirian",
+                  "Iboidife", "Kanoe", "Ishaanmar", "Varwilin", "Ahmad", "Ajaysana", "Shylahdn", "Shashirum"
+________________________________________________________________________________________________________________________
+Items :
+
+    Potions     = "Health potion", "String health potion", "Vitality potion", "Strength potion", "Translocation potion"
+
+    Materials   = "Wood", "Flower", "Pebble", "Cactus", "Oil", "Sand", "Gem", "Iron", "Coal", "Gold", "Seaweed",
+                  "Coral", "Fish", "Rope", "Parrot", "Palm", "Relic"
+
+    Armor       = "Heroic Crown", "Pope's Antivirus", "Leather Plate", "Wooden Boots", "Armor Of The Exodus"
+
+    Weapons     = "Golden Sword", "Diamond Sword", "Hercules Bow", "Medusa Head", "Rock", "Rod Of Calamari", "Cruci Fix",
+                   "Electric Sword", "Sword Fish", "Animal Crucifix", "Sword Of The Exodus", "Galactic Scythe",
+                    "Sword Of Null Pointer", "Sword Of Gryffindor", "Glamdring", "Sword Of Truth", "Calamari Wizard Staff"
+
+    Armor %     = "Blessed Metal", "Obsidian Plate", "Living Iron"
+
+    Damage %    = "Sharpening Tool", "Slicing Edge", "Eye Of Extinction", "Mighty Sharpening Tool", "Fiery Oil"
+
+    Special     = "Qiqra", "Key", "Doom Coin", "Exodus's Soul"
+________________________________________________________________________________________________________________________
+Lore :
+
+________________________________________________________________________________________________________________________
